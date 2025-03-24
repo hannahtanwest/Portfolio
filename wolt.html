@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="Static/css/styles.css">
+    <link rel="stylesheet" href="Static/css/wolt.css">
+    <script src="Static/js/burger-menu.js" defer></script>
+    <script src="Static/js/animations.js" defer></script>
+    <title>Hannah West | Wolt - Replica</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="desk-socials">
+                <a href="index.html"><h4 class="home-logo">Hannah West</h4></a>
+                <hr>
+                <a href="mailto:hannahtan.west@gmail.com"><p>Email</p></a>
+                <a href="https://www.instagram.com/hannah_tan_west/" target="_blank"><p>Instagram</p></a>
+                <a href="https://www.instagram.com/amentes_cph/" target="_blank"><p>Amentes</p></a>
+            </section>
+
+
+            <a href="index.html"><h4 class="home-logo home-logo-mobile">Hannah West</h4></a>
+            <button onclick="openNav()"><h4 class="bm-open-btn">Menu</h4></button>
+
+            <div id="myNav" class="overlay">
+                <button class="bm-close-btn" onclick="closeNav()">&times;</button>
+                <ul class="overlay-content">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="mailto:hannahtan.west@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="project-header">
+            <header class="animate-header">
+                <h1 class="tnr_font">Wolt</h1>
+                <h3>Replica</h3>
+                <h4>Web Development</h4>
+                <hr>
+            </header>
+        </section>
+        <section class="project-info pi-1">
+            <p >For my Web Development exam, I created a food delivery web application inspired by Wolt. The project was built using Python (Flask) for the backend, HTML, CSS, and JavaScript for the frontend, and phpMyAdmin for the database. The app allows partners (restaurants), customers, and an admin to manage their respective functionalities in a secure and user-friendly environment.</p>
+            <img src="img/Wolt-mock-page(1).png" alt="">
+        </section>
+        <section class="show-case">
+            <h1>The Main Focus</h1>
+            <hr>
+            <p>The main focus of this project was on functionality rather than design. The goal was to ensure that all features — including user authentication, account management, and order processing — worked seamlessly and securely. As a result, the design is kept simple and straightforward, prioritizing performance, usability, and backend stability over aesthetic appeal.</p>
+            <img src="img/wolt-mock-iso.png" alt="">
+            <img src="img/wolt-screenshot-2.png" alt="">
+            <img src="img/wolt-mac.png" alt="">
+        </section>
+        <section class="project-info pi-1">
+            <div class="so-me">
+                <h1>Check Out the Code!</h1>
+                <a href="https://github.com/hannahtanwest/wolt_eksamen" class="insta-link" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </main>
+</body>

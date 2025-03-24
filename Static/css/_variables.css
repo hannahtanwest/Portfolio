@@ -1,0 +1,29 @@
+:root{
+    /* color */
+    --bg-color: #F2EEE9 ;
+    --accent-color: #202020;
+    --main-text-color: #202020;
+
+    /* Text */
+    --header: 6rem;
+    --headerMobile: 4rem;
+    --headerProject: 10rem;
+    --nav-link-mobile: 3rem;
+    --headerText: 2rem;
+    --subText: 1.5rem;
+    --tinyText: 1.2rem;
+    --logo: 1.5rem;
+    --main-font: 'playfair';
+
+    /* margins and pddaings */
+    --margin: 100px;
+    --marginSmall:50px;
+    --marginTiny: 25px;
+    --marginProjectsMobile: 20vh;
+    --marginProjectsDesk: 15vh;
+    --paddingMobileMain: 50px;
+    --paddingMobileTiny: 25px;
+    --paddingDeskMain: 100px;
+    --paddingTiny: 1.563rem;
+
+}
