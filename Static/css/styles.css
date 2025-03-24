@@ -14,7 +14,7 @@ body{
         nav{
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
             .home-logo{
                 text-decoration: none;
                 color: var(--main-text-color);
@@ -81,7 +81,7 @@ body{
                 margin-top: var(--margin);
                 font-family: var(--main-font);
                 color: var(--accent-color);
-                font-size: var(--headerMobile);
+                font-size: var(--headerIndex);
                 .cursive{
                     font-style: italic;
                 }
