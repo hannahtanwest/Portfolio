@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="Static/css/styles.css">
+    <link rel="stylesheet" href="Static/css/splitshare.css">
+    <script src="Static/js/burger-menu.js" defer></script>
+    <script src="Static/js/animations.js" defer></script>
+    <title>Hannah West | SplitShare - Bachelor Project</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="desk-socials">
+                <a href="index.html"><h4 class="home-logo">Hannah West</h4></a>
+                <hr>
+                <a href="mailto:hannahtan.west@gmail.com"><p>Email</p></a>
+                <a href="https://www.instagram.com/hannah_tan_west/" target="_blank"><p>Instagram</p></a>
+                <a href="https://www.instagram.com/amentes_cph/" target="_blank"><p>Amentes</p></a>
+            </section>
+
+
+            <a href="index.html"><h4 class="home-logo home-logo-mobile">Hannah West</h4></a>
+            <button onclick="openNav()"><h4 class="bm-open-btn">Menu</h4></button>
+
+            <div id="myNav" class="overlay">
+                <button class="bm-close-btn" onclick="closeNav()">&times;</button>
+                <ul class="overlay-content">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="mailto:hannahtan.west@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="project-header">
+            <header class="animate-header">
+                <h1 class="tnr_font">SplitShare</h1>
+                <h3>Bachelor</h3>
+                <h4>Web Development</h4>
+                <hr>
+            </header>
+        </section>
+        <section class="project-info pi-1">
+            <p >For my bachelors project in web development, we created SplitShare, a web application that supports structured registration of joint expenses, manual distribution between users, and a comprehensive and clear balance overview. The project's intention was to investigate how concepts from economic modeling and algorithmic processing can be implemented to ensure consistency and transparency in a shared economic system. </p>
+            <img src="img/splitshare_login.png" alt="">
+        </section>
+        <section class="show-case">
+            <h1>The Main Focus</h1>
+            <hr>
+            <p>The main focus was to create a system that is based on double bookkeeping. There is a particular focus on backend design, data modeling and computational logic, including how financial transactions can be structured and modeled in a way that reduces errors and ensures that the state of the system remains consistent.</p>
+            <img src="img/splitshare_demo.png" alt="">
+        </section>
+        <section class="show-case_2">
+            <h1>Prototypes in Figma</h1>
+            <hr>
+            <p>
+                In the project, we worked directly with low-fidelity wireframes in Figma, where layout, information hierarchy and the most important treatments were represented with simple visual elements and placeholders. Due to the choice of low-fidelity wireframes, it was easy to quickly change the structure and functionality, as the focus is on the basic layout.
+            </p>
+            
+            <img src="img/splitshare_mobile.png" class="splitshare_mobile_img" alt="">
+            <h1 class="cta_figma">Check Out the Figma!</h1>
+            <a href="https://www.figma.com/design/fnagDKeVoUGKDempoHSQ46/Splitshare?node-id=19-214&t=dT9VXiCA4sMvovql-1" class="insta-link" target="_blank">Figma</a>
+            <h1 class="cta_figma">Check Out the Code!</h1>
+            <a href="https://github.com/hannahtanwest/Portfolio" class="insta-link" target="_blank">GitHub</a>
+        </section>
+        <section class="project-info pi-1">
+            <div class="so-me">
+                <div class="cta_links">
+                    <h1>Check Out the Code!</h1>
+                    <a href="https://github.com/hannahtanwest/Portfolio" class="insta-link" target="_blank">GitHub</a>
+                </div>
+                <div class="cta_links">
+                    <h1 class="cta_figma">Check Out the Figma!</h1>
+                    <a href="https://www.figma.com/design/fnagDKeVoUGKDempoHSQ46/Splitshare?node-id=19-214&t=dT9VXiCA4sMvovql-1" class="insta-link" target="_blank">Figma</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
