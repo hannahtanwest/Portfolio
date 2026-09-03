@@ -84,6 +84,7 @@ body{
                 .marketing-steps, .marketing-steps-full{
                     .step-header{
                         font-weight: 900;
+                        margin-top: var(--marginTiny);
                     }
                 }
                 .marketing-steps{
